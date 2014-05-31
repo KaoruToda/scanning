@@ -10,3 +10,9 @@ PermitRootLogin    	     yes	 	# comment
 # blank test
 	PermitRootLogin yes
 	PermitRootLogin yes			
+
+RhostsRSAAuthentication yes
+PasswordAuthentication yes
+PermitEmptyPasswords yes
+ChallengeResponseAuthentication yes
+

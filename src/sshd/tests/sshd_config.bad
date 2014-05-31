@@ -15,4 +15,6 @@ RhostsRSAAuthentication yes
 PasswordAuthentication yes
 PermitEmptyPasswords yes
 ChallengeResponseAuthentication yes
-
+Protocol 1
+Protocol 2,1
+Protocol 1,2

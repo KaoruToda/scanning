@@ -16,4 +16,5 @@ fi
 
 $CMD -E \
 	-e '^[[:space:]]*(PermitRootLogin|RhostsRSAAuthentication|PasswordAuthentication|PermitEmptyPasswords|ChallengeResponseAuthentication)[[:space:]]+yes' \
+	-e '^[[:space:]]*(Protocol)[[:space:]]+(2[,[[:space:]]]*)?1' \
 	$TARGET

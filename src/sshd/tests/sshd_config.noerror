@@ -7,3 +7,4 @@ PermitRootLogin    	     no
 ## PermitRootLogin    	     no
 # PermitRootLogin    	     no
 # PermitRootLogin    	     yes # no problem
+Protocol 2

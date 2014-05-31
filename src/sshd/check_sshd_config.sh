@@ -14,4 +14,6 @@ else
 	TARGET="$@"
 fi
 
-$CMD -E -e '^[[:space:]]*PermitRootLogin[[:space:]]+yes' $TARGET
+$CMD -E \
+	-e '^[[:space:]]*(PermitRootLogin|RhostsRSAAuthentication|PasswordAuthentication|PermitEmptyPasswords|ChallengeResponseAuthentication)[[:space:]]+yes' \
+	$TARGET

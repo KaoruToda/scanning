@@ -1,5 +1,8 @@
 #!/bin/sh
-
+#
+# unix.sh
+# Copyright (C) 2014 kaoru <kaoru@bsd>
+#
 
 DIR_BASE=./backup/
 

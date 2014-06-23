@@ -7,6 +7,8 @@
 # usage
 # sh mon_www.sh http://localhost/ http://localhost/nofound http://nodomain/
 
+# TODO: whach -n 3 でもいいかも。
+
 SLEEP_SEC=3
 SLEEP=sleep
 
